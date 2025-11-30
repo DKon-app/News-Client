@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DKon.app — Login</title>
+  <style>
+    body { font-family: Arial; text-align: center; margin-top: 100px; background: #1a1a1a; color: white; }
+    input, button { padding: 12px; margin: 10px; width: 300px; font-size: 16px; }
+    button { background: #0066ff; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>DKon.app Client</h1>
+  <input type="text" id="username" placeholder="UserName" /><br/>
+  <input type="password" id="password" placeholder="Password" /><br/>
+  <button onclick="login()">Enter</button>
+  <p id="error" style="color:red"></p>
+    
+
+  <script>
+    async function login() {
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+      const res = await window.dkonAPI.login(username, password);
+      if (!res.success) {
+        document.getElementById('error').textContent = res.error;
+      }
+    }
+  </script>
+    
+   <a href="https://dkon.app/signup?client_news_v1" target="_blank" style="display: inline-block; padding: 10px 20px; background: #0066ff; color: white; border: none; cursor: pointer;">
+    Registration
+</a>
+
+
+</body>
+</html>

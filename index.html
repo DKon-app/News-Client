@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DKon.app</title>
+  <link rel="stylesheet" href="dkon.css">
+  <link rel="stylesheet" href="dkon-font.css">
+</head>
+<body>
+  <div id="app">
+    <aside>
+      <!--div class="header">DKon.app</div-->
+      <div class="search-box">
+        <input type="text" placeholder="Search for communities..." onkeyup="debouncedSearch(this.value)">
+      </div>
+      <div class="DKFont-id32 feed-btn" id="my-feed-btn" onclick="openMyFeed()">
+        My Feed
+        <div class="badge" id="new-posts-badge" style="display:none;">0</div>
+      </div>
+      <div class="groups-list" id="groups-list" onscroll="loadMoreGroupsIfNeeded()">
+        <div class="loading">Loading communities...</div>
+      </div>
+    </aside>
+
+    <main id="main-content">
+      <div class="welcome">
+        
+          <h1 class="DKFont-id34">DKon.app</h1>
+        <p class="DKFont-id33">Select the community on the left<br> or open My Feed</p>
+      </div>
+    </main>
+  </div>
+<script src="dkon.js"></script>
+</body>
+</html>

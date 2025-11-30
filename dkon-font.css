@@ -1,0 +1,26 @@
+ @font-face {
+            font-family: 'Vorgarok';
+            src: url('https://res.dkon.app/new-fonts/Vorgarok.ttf') format('truetype');
+        }
+         
+        @font-face {
+            font-family: 'Aladin';
+            src: url('https://res.dkon.app/new-fonts/Aladin-Regular.ttf') format('truetype');
+        }
+
+    @font-face {
+            font-family: 'OpenSans';
+            src: url('https://res.dkon.app/aang/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVQUwaEQbjB_mQ.woff') format('woff');
+        }
+
+        .DKFont-id32 {
+            font-family: 'OpenSans', sans-serif; 
+        }
+
+        .DKFont-id34 {
+            font-family: 'Vorgarok', sans-serif; 
+        }
+         
+        .DKFont-id33 {
+            font-family: 'Aladin', sans-serif; 
+        }
