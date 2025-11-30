@@ -1,6 +1,11 @@
 # News-Client
 ### Desktop client (windows linux macos) with which you can conveniently view news, read articles, watch videos
 
+## Install
+
+npm install
+npm start
+
 
 ## Screenshot 
 
