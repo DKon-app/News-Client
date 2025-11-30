@@ -5,6 +5,12 @@
 
 npm install <br>
 npm start
+<b><br>
+And Download Realised
+
+<a href="https://github.com/DKon-app/News-Client/releases/tag/v1" targer="_blank">Realised v1 Last November Day 2025</a>
+<br>
+<a href="https://dkon.app/signup" targer="_blank">Register in System</a>
 
 
 ## Screenshot 
