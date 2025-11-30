@@ -3,7 +3,7 @@
 
 ## Install
 
-npm install
+npm install <br>
 npm start
 
 
